@@ -1,5 +1,5 @@
 <?php 
-namespace  Jksaaltigani\FireabaseHandel;
+namespace FireabaseHandel;
 class  FirebaseMessaging {
      public static function SendFireBaseMessageToUser(){
           return GetSeriverKeyFromConfig();

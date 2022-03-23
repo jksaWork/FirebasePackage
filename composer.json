@@ -21,10 +21,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jksaaltigani\\FireabaseHandel\\FirebaseServiceProvider"
+                "FireabaseHandel\\FirebaseServiceProvider"
             ],
             "aliases": {
-                "FirebaseMessaging": "Jksaaltigani\\FirebaseMessaging"
+                "FirebaseMessaging": "FireabaseHandel\\FirebaseMessaging"
             }
         }
     }

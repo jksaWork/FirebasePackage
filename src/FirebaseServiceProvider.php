@@ -1,5 +1,5 @@
 <?php 
-namespace Jksaaltigani\FireabaseHandel;
+namespace FireabaseHandel;
 use Illuminate\Support\ServiceProvider;
 
 
