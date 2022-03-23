@@ -1,0 +1,31 @@
+{
+    "name": "jksaaltigani/fireabasehandel",
+    "description": "Simple Pakage To Handel Work With Firbase ..",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moahmmed Altignai Omsan",
+            "email": "jksa.work.1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "JksaAltignai\\FirebaseHandler\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FirebaseHandler\\HandelFirebaseServiceProvider"
+            ],
+            "aliases": {
+                "FirebaseMessage": "FirebaseHandler\\FirebaseMessage"
+            }
+        }
+    }
+}
