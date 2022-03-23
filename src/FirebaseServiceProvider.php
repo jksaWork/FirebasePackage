@@ -1,11 +1,9 @@
-<?php
-
-namespace FirebaseHandler;
-
+<?php 
+namespace Jksaaltigani\FireabaseHandel;
 use Illuminate\Support\ServiceProvider;
 
-class HttpClientServiceProvider extends ServiceProvider{
 
+class FirebaseServiceProvider extends ServiceProvider {
 
 	public function boot()
 	{
@@ -21,14 +19,14 @@ class HttpClientServiceProvider extends ServiceProvider{
 	protected function publishConfig()
 	{
     	$this->publishes([
-    	       __DIR__.'/config/httpclient.php' => config_path('httpclient.php')
-       	], 'httpclient');
+    	       __DIR__.'/config/Firebase.php' => config_path('Firebase.php')
+       	], 'Firebase');
 	}
 
 	protected function mergeConfig()
 	{
 		$this->mergeConfigFrom( 
-			__DIR__.'/config/httpclient.php', 'httpclient' 
+			__DIR__.'/config/Firebase.php', 'Firebase' 
 		);
 	}
 }
