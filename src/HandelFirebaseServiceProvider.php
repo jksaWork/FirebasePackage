@@ -1,11 +1,10 @@
 <?php
 
-namespace DarshPhpDev\HttpHelper;
+namespace FirebaseHandler;
 
 use Illuminate\Support\ServiceProvider;
 
-class HandelFirebaseServiceProvider extends ServiceProvider{
-
+class HandelFirebaseServiceProvider extends ServiceProvider {
 
 	public function boot()
 	{
